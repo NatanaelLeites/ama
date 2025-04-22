@@ -1,0 +1,34 @@
+{
+  "name": "ama",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "Piedras",
+    "Naturales",
+    "-",
+    "Reiki",
+    "-",
+    "Proteccion",
+    "-",
+    "Energia"
+  ],
+  "homepage": "https://github.com/NatanaelLeites/ama#readme",
+  "bugs": {
+    "url": "https://github.com/NatanaelLeites/ama/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatanaelLeites/ama.git"
+  },
+  "license": "ISC",
+  "author": "Natanael Leites",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass --watch scss/estilos.scss:css/estilos.css"
+  },
+  "devDependencies": {
+    "sass": "^1.87.0"
+  }
+}
