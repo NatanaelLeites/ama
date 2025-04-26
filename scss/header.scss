@@ -1,0 +1,39 @@
+.header{
+    background-color: $color-principal;
+    padding: 1.3rem;
+    .link-inicio{
+        color: #ffffff;
+        transition: all .5s;
+        font-family: $fuente-texto-general;
+        font-size: 24px;
+    }
+    .link-inicio:hover{
+        transform: scale(0.9);
+    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav{
+        display: flex;
+        .nav-item{
+            font-family: $fuente-texto-general;
+            color: #ffffff;
+            font-size: 18px;
+            padding: 0 1rem;
+            transition: all .5s;
+        }
+        .nav-item:hover{
+            color: #5e0d70;
+            transform: scale(0.9);
+        }
+    }
+    .bx-menu-alt-right{
+        color: #ffffff;
+        font-size: 28px;
+        transition: all .5s;
+        cursor: pointer;
+    }
+    .bx-menu-alt-right:hover{
+        color: #5e0d70;
+    }
+}
