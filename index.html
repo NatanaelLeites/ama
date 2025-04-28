@@ -13,6 +13,41 @@
 
 <body>
     <div class="container">
+        <div class="iniciarSesionContainer">
+            <form class="formularioInicioSesion" id="loginForm">
+                <h2 class="tituloInicioSesion">Iniciar Sesión La Sofi App</h2>
+                <div class="wave-group">
+                    <input id="emailInput" required="" type="text" class="input">
+                    <span class="bar"></span>
+                    <label class="label">
+                        <span class="label-char" style="--index: 0">E</span>
+                        <span class="label-char" style="--index: 1">m</span>
+                        <span class="label-char" style="--index: 2">a</span>
+                        <span class="label-char" style="--index: 3">i</span>
+                        <span class="label-char" style="--index: 4">l</span>
+                    </label>
+                </div>
+
+                <div class="wave-group">
+                    <input id="passwordInput" required="" type="password" class="input">
+                    <span class="bar"></span>
+                    <label class="label">
+                        <span class="label-char" style="--index: 0">C</span>
+                        <span class="label-char" style="--index: 1">o</span>
+                        <span class="label-char" style="--index: 2">n</span>
+                        <span class="label-char" style="--index: 3">t</span>
+                        <span class="label-char" style="--index: 4">r</span>
+                        <span class="label-char" style="--index: 5">a</span>
+                        <span class="label-char" style="--index: 6">s</span>
+                        <span class="label-char" style="--index: 7">e</span>
+                        <span class="label-char" style="--index: 8">ñ</span>
+                        <span class="label-char" style="--index: 9">a</span>
+                    </label>
+                </div>
+                <button type="submit" class="button">Iniciar</button>
+
+            </form>
+        </div>
         <header class="header">
             <a class="link-inicio" href="./index.html">
                 <p>AMA</p>
@@ -28,7 +63,7 @@
             <div id="productos-list">
             </div>
         </div>
-        <!-- <div class="form-container">
+        <div class="form-container">
             <h2>Agregar Producto</h2>
             <form id="addProductForm">
                 <div>
@@ -59,9 +94,11 @@
                 </div>
                 <button type="submit">Agregar Accesorio</button>
             </form>
-        </div> -->
+        </div>
     </div>
-    <script src="./js/main.js"></script>
+
+    <!-- scripts para la sofi -->
+    <script type="module" src="./js/main.js"></script>
 </body>
 
 </html>

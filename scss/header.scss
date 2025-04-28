@@ -17,23 +17,51 @@
         display: flex;
         .nav-item{
             font-family: $fuente-texto-general;
-            color: #ffffff;
+            color: #cbcbcb;
             font-size: 18px;
             padding: 0 1rem;
             transition: all .5s;
         }
         .nav-item:hover{
-            color: #5e0d70;
+            color: #ffffff;
             transform: scale(0.9);
         }
     }
     .bx-menu-alt-right{
-        color: #ffffff;
+        color: #cbcbcb;
         font-size: 28px;
         transition: all .5s;
         cursor: pointer;
+        
     }
     .bx-menu-alt-right:hover{
-        color: #5e0d70;
+        color: #fff;
+        transform: scale(.9);
     }
 }
+
+/* @media (max-width: 620px) {
+    .nav{
+        background-color: $color-principal;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 50vw;
+        height: 30vh;
+        right: -200px;
+        right: 0;
+        top: 14rem;
+        padding: 0.5rem;
+    }
+    .nav-item{
+        padding: 0.5rem;
+    }
+    .bx-menu-alt-right{
+        
+        position: absolute;
+        top: 1.25rem;
+        right: 1rem;
+        z-index: 2000;
+    }
+} */
