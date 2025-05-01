@@ -322,6 +322,39 @@
   box-shadow: 0px 0px 6px #f0d1d9;
 }
 
+.rincon {
+  padding: 1rem;
+  font-family: "Open sans", sans-serif;
+  color: #4d4d4d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rincon .rincon-info {
+  padding: 1rem;
+}
+.rincon .rincon-info h3 {
+  font-weight: 400;
+  font-size: 26px;
+  color: #000000;
+  text-align: center;
+  padding: 1rem;
+}
+.rincon .rincon-info p {
+  line-height: 1.8;
+  padding: 1rem 0.5rem;
+}
+.rincon .rincon-info button {
+  padding: 1rem 2rem;
+  color: #fff;
+  background: rgba(240, 209, 217, 0.9843137255);
+  border: none;
+  cursor: pointer;
+}
+.rincon .rincon-info button:hover {
+  box-shadow: 0px 0px 6px #f0d1d9;
+}
+
 * {
   margin: 0;
   padding: 0;
