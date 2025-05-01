@@ -4,3 +4,4 @@ import { auth } from "./firebase.js";
 //import { loginCheck } from './firebase.js'
 
 import './iniciarSesion.js'
+import './hero.js'

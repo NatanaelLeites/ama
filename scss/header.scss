@@ -1,7 +1,8 @@
-.politica-de-envio{
+.politica-de-envio {
     display: flex;
     justify-content: center;
     padding: 0.5rem;
+
     .link-politica-envio {
         font-family: $fuente-texto-general;
         font-size: 12px;
@@ -11,6 +12,7 @@
 
 
 .header {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,21 +24,52 @@
         cursor: pointer;
         color: #000000;
     }
-    .bx:hover{
+
+    .bx:hover {
         transform: scale(1.1);
     }
 
     .nav {
         position: absolute;
-        bottom: 3rem;
-        .nav-links{
-            .nav-item {}
-            .nav-item:hover {}
-        }
-        a{
+        top: 123px;
+        left: -200px;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        transition: all .5s;
+        opacity: 0;
+        .nav-links {
+            display: flex;
+            flex-direction: column;
 
+            .nav-item {
+                font-size: 20px;
+                padding: .5rem;
+                transition: all .5s;
+                color: #000;
+            }
+
+            .nav-item:hover {
+                background-color: #00000053;
+            }
+        }
+
+        .link-instagram {
+            padding: 1rem 0.5rem;
+            text-align: center;
+        }
+
+        .link-instagram:hover {
+            background-color: #00000053;
         }
     }
+
+    .activo {
+        left: 0;
+        opacity: 1;
+        z-index: 100;
+    }
+
     .link-inicio {
         img {
             height: 120px;
