@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     padding: 0.5rem;
-
     .link-politica-envio {
         font-family: $fuente-texto-general;
         font-size: 12px;
@@ -12,12 +11,13 @@
 
 
 .header {
-    position: relative;
+    z-index: 100;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem;
     font-family: $fuente-texto-general;
+    background-color: #fff;
 
     .bx {
         font-size: 24px;
@@ -37,16 +37,16 @@
         flex-direction: column;
         background-color: #fff;
         transition: all .5s;
-        opacity: 0;
+        opacity: 1;
         .nav-links {
             display: flex;
             flex-direction: column;
 
             .nav-item {
-                font-size: 20px;
-                padding: .5rem;
+                font-size: 18px;
+                padding: .8rem;
                 transition: all .5s;
-                color: #000;
+                color: #4d4d4d;
             }
 
             .nav-item:hover {
@@ -56,7 +56,6 @@
 
         .link-instagram {
             padding: 1rem 0.5rem;
-            text-align: center;
         }
 
         .link-instagram:hover {

@@ -177,12 +177,13 @@
 }
 
 .header {
-  position: relative;
+  z-index: 100;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem;
   font-family: "Open sans", sans-serif;
+  background-color: #fff;
 }
 .header .bx {
   font-size: 24px;
@@ -200,24 +201,23 @@
   flex-direction: column;
   background-color: #fff;
   transition: all 0.5s;
-  opacity: 0;
+  opacity: 1;
 }
 .header .nav .nav-links {
   display: flex;
   flex-direction: column;
 }
 .header .nav .nav-links .nav-item {
-  font-size: 20px;
-  padding: 0.5rem;
+  font-size: 18px;
+  padding: 0.8rem;
   transition: all 0.5s;
-  color: #000;
+  color: #4d4d4d;
 }
 .header .nav .nav-links .nav-item:hover {
   background-color: rgba(0, 0, 0, 0.3254901961);
 }
 .header .nav .link-instagram {
   padding: 1rem 0.5rem;
-  text-align: center;
 }
 .header .nav .link-instagram:hover {
   background-color: rgba(0, 0, 0, 0.3254901961);

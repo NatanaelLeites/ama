@@ -13,4 +13,4 @@ export function showMessage(message, type = "success") {
       },
       // onClick: function () { } // Callback after click
     }).showToast();
-  }
+}
