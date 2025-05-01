@@ -1,0 +1,26 @@
+.nosotros{
+    padding: 2rem;
+    font-family: $fuente-texto-general;
+    text-align: center;
+    color: #4d4d4d;
+    h3{
+        font-weight: 400;
+        font-size: 26px;
+        color: #141414;
+        margin: 0;
+    }
+    p{
+        line-height: 1.8;
+        padding: 1rem .5rem;
+    }
+    button{
+        padding: 1rem 2rem;
+        color: #fff;
+        background: #f0d1d9fb;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover{
+        box-shadow: 0px 0px 6px #f0d1d9;
+    }
+}
