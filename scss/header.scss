@@ -5,6 +5,7 @@
     .link-politica-envio {
         font-family: $fuente-texto-general;
         font-size: 12px;
+        color: #000;
     }
 }
 
@@ -19,7 +20,7 @@
     .bx {
         font-size: 24px;
         cursor: pointer;
-        color: black;
+        color: #000000;
     }
     .bx:hover{
         transform: scale(1.1);
@@ -33,7 +34,7 @@
             .nav-item:hover {}
         }
         a{
-            
+
         }
     }
     .link-inicio {
