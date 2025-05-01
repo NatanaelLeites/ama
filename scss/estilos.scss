@@ -1,5 +1,5 @@
 @import './variables.scss';
-@import './modalInicioSesion.scss';
+@import './inicioSesion.scss';
 @import './header.scss';
 @import './stock.scss';
 *{
@@ -15,5 +15,7 @@ body{
 a{
     text-decoration: none;
 }
-.container{
+.toastify{
+    font-family: $fuente-texto-general;
+    font-size: 18px;
 }

@@ -1,5 +1,5 @@
 .header{
-    background-color: $color-principal;
+    background: linear-gradient(to bottom, /* $color-principal */#9357bb, #6d3990, #5a2f78, #431f5c);
     padding: 1.3rem;
     .link-inicio{
         color: #ffffff;
@@ -8,7 +8,7 @@
         font-size: 24px;
     }
     .link-inicio:hover{
-        transform: scale(0.9);
+        
     }
     display: flex;
     align-items: center;
@@ -17,14 +17,13 @@
         display: flex;
         .nav-item{
             font-family: $fuente-texto-general;
-            color: #cbcbcb;
+            color: #ffffff;
             font-size: 18px;
-            padding: 0 1rem;
+            margin: 0 1rem;
             transition: all .5s;
         }
         .nav-item:hover{
-            color: #ffffff;
-            transform: scale(0.9);
+            
         }
     }
     .bx-menu-alt-right{
@@ -32,11 +31,9 @@
         font-size: 28px;
         transition: all .5s;
         cursor: pointer;
-        
     }
     .bx-menu-alt-right:hover{
-        color: #fff;
-        transform: scale(.9);
+        transform: rotate(360deg);
     }
 }
 

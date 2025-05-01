@@ -1,28 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 .iniciarSesionContainer {
   padding: 1rem;
-  height: 100vh;
+  height: 95vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  font-family: "Roboto", sans-serif;
-  background-color: #009f85;
+  font-family: "Open sans", sans-serif;
+}
+.iniciarSesionContainer .header-inicio {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+.iniciarSesionContainer .header-inicio img {
+  height: 90px;
 }
 .iniciarSesionContainer .formularioInicioSesion {
-  background-color: #e8e8e8;
   padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 15px;
+  background-color: rgba(240, 209, 217, 0.9843137255);
   /* input */
   /* fin prueba input */
   /* boton de inicio */
 }
 .iniciarSesionContainer .formularioInicioSesion .tituloInicioSesion {
-  color: #009f85;
+  color: #1d1d1d;
   padding: 1rem;
   text-align: center;
 }
@@ -35,14 +43,14 @@
   display: block;
   width: 200px;
   border: none;
-  border-bottom: 1px solid #009f85;
+  border-bottom: 1px solid #1d1d1d;
   background: transparent;
 }
 .iniciarSesionContainer .formularioInicioSesion .wave-group .input:focus {
   outline: none;
 }
 .iniciarSesionContainer .formularioInicioSesion .wave-group .label {
-  color: #009f85;
+  color: #1d1d1d;
   font-size: 18px;
   font-weight: normal;
   position: absolute;
@@ -73,7 +81,7 @@
   width: 0;
   bottom: 1px;
   position: absolute;
-  background: #009f85;
+  background: #1d1d1d;
   transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
@@ -101,7 +109,7 @@
   overflow: hidden;
   font-size: 19px;
   cursor: pointer;
-  color: #009f85;
+  color: #1d1d1d;
   background-color: rgba(0, 0, 0, 0.0862745098);
   z-index: 1;
   width: 80%;
@@ -128,7 +136,7 @@
   top: 180%;
   width: 160%;
   height: 190%;
-  background-color: #009f85;
+  background-color: #1d1d1d;
   border-radius: 50%;
   display: block;
   transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
@@ -136,21 +144,29 @@
 }
 .iniciarSesionContainer .formularioInicioSesion .button:hover {
   color: #ffffff;
-  border: 1px solid #009f85;
+  border: 1px solid #1d1d1d;
 }
 .iniciarSesionContainer .formularioInicioSesion .button:hover:before {
   top: -35%;
-  background-color: #009f85;
+  background-color: #1d1d1d;
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
 .iniciarSesionContainer .formularioInicioSesion .button:hover:after {
   top: -45%;
-  background-color: #009f85;
+  background-color: #1d1d1d;
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+.iniciarSesionContainer .footer-inicio .bxl-instagram {
+  font-size: 30px;
+  cursor: pointer;
+  color: #000000;
+}
+.iniciarSesionContainer .footer-inicio .bxl-instagram:hover {
+  transform: scale(1.1);
 }
 
 .header {
-  background-color: #009f85;
+  background: linear-gradient(to bottom, #9357bb, #6d3990, #5a2f78, #431f5c);
   padding: 1.3rem;
   display: flex;
   align-items: center;
@@ -159,25 +175,18 @@
 .header .link-inicio {
   color: #ffffff;
   transition: all 0.5s;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open sans", sans-serif;
   font-size: 24px;
-}
-.header .link-inicio:hover {
-  transform: scale(0.9);
 }
 .header .nav {
   display: flex;
 }
 .header .nav .nav-item {
-  font-family: "Roboto", sans-serif;
-  color: #cbcbcb;
-  font-size: 18px;
-  padding: 0 1rem;
-  transition: all 0.5s;
-}
-.header .nav .nav-item:hover {
+  font-family: "Open sans", sans-serif;
   color: #ffffff;
-  transform: scale(0.9);
+  font-size: 18px;
+  margin: 0 1rem;
+  transition: all 0.5s;
 }
 .header .bx-menu-alt-right {
   color: #cbcbcb;
@@ -186,8 +195,7 @@
   cursor: pointer;
 }
 .header .bx-menu-alt-right:hover {
-  color: #fff;
-  transform: scale(0.9);
+  transform: rotate(360deg);
 }
 
 /* @media (max-width: 620px) {
@@ -250,6 +258,11 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.toastify {
+  font-family: "Open sans", sans-serif;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
