@@ -1,64 +1,44 @@
-.header{
-    background: linear-gradient(to bottom, /* $color-principal */#9357bb, #6d3990, #5a2f78, #431f5c);
-    padding: 1.3rem;
-    .link-inicio{
-        color: #ffffff;
-        transition: all .5s;
-        font-family: $fuente-texto-general;
-        font-size: 24px;
-    }
-    .link-inicio:hover{
-        
-    }
+.politica-de-envio{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    .nav{
-        display: flex;
-        .nav-item{
-            font-family: $fuente-texto-general;
-            color: #ffffff;
-            font-size: 18px;
-            margin: 0 1rem;
-            transition: all .5s;
-        }
-        .nav-item:hover{
-            
-        }
-    }
-    .bx-menu-alt-right{
-        color: #cbcbcb;
-        font-size: 28px;
-        transition: all .5s;
-        cursor: pointer;
-    }
-    .bx-menu-alt-right:hover{
-        transform: rotate(360deg);
+    justify-content: center;
+    padding: 0.5rem;
+    .link-politica-envio {
+        font-family: $fuente-texto-general;
+        font-size: 12px;
     }
 }
 
-/* @media (max-width: 620px) {
-    .nav{
-        background-color: $color-principal;
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    font-family: $fuente-texto-general;
+
+    .bx {
+        font-size: 24px;
+        cursor: pointer;
+        color: black;
+    }
+    .bx:hover{
+        transform: scale(1.1);
+    }
+
+    .nav {
         position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        width: 50vw;
-        height: 30vh;
-        right: -200px;
-        right: 0;
-        top: 14rem;
-        padding: 0.5rem;
+        bottom: 3rem;
+        .nav-links{
+            .nav-item {}
+            .nav-item:hover {}
+        }
+        a{
+            
+        }
     }
-    .nav-item{
-        padding: 0.5rem;
+    .link-inicio {
+        img {
+            height: 120px;
+        }
     }
-    .bx-menu-alt-right{
-        
-        position: absolute;
-        top: 1.25rem;
-        right: 1rem;
-        z-index: 2000;
-    }
-} */
+}
