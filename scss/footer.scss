@@ -1,15 +1,38 @@
-.footer{
+.footer {
     padding: 2rem;
     font-family: $fuente-texto-general;
     display: flex;
-    flex-wrap: wrap;
-    p{
-        font-size: 14px;
-        margin: 1rem;
+    flex-direction: column;
+    align-items: center;
+
+    .footer-links{
+        .link-footer {
+            font-size: 24px;
+            cursor: pointer;
+            color: #000000;
+            margin: 1rem .8rem;
+            width: fit-content;
+        }
+        .link-footer:hover{
+            transform: scale(1.1);
+        }
     }
-    a{
-        font-size: 14px;
-        margin: 1rem;
-        color: #000;
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p {
+            font-size: 14px;
+            margin: 1rem;
+            color: #4d4d4d;
+        }
+
+        a {
+            font-size: 14px;
+            margin: 1rem;
+            color: #4d4d4d;
+            width: max-content;
+        }
     }
 }

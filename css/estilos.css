@@ -210,14 +210,15 @@
 .header .nav .nav-links .nav-item {
   font-size: 18px;
   padding: 0.8rem;
-  transition: all 0.5s;
   color: #4d4d4d;
+  transition: all 0.5s;
 }
 .header .nav .nav-links .nav-item:hover {
   background-color: rgba(0, 0, 0, 0.3254901961);
 }
 .header .nav .link-instagram {
   padding: 1rem 0.5rem;
+  transition: all 0.5s;
 }
 .header .nav .link-instagram:hover {
   background-color: rgba(0, 0, 0, 0.3254901961);
@@ -330,6 +331,10 @@
   flex-direction: column;
   justify-content: center;
 }
+.rincon img {
+  height: 80vh;
+  object-fit: cover;
+}
 .rincon .rincon-info {
   padding: 1rem;
 }
@@ -355,26 +360,86 @@
   box-shadow: 0px 0px 6px #f0d1d9;
 }
 
+.contacto {
+  font-family: "Open sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.contacto h3 {
+  font-weight: 400;
+  font-size: 26px;
+  color: #000000;
+  text-align: center;
+  padding: 1rem;
+}
+.contacto #myForm .form-group .col input {
+  width: 90vw;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+.contacto #myForm .form-group textarea {
+  width: 90vw;
+  height: 100px;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+.contacto #myForm .btn-enviar {
+  padding: 1rem 2rem;
+  color: #fff;
+  background: rgba(240, 209, 217, 0.9843137255);
+  border: none;
+  cursor: pointer;
+  margin: 1rem;
+}
+.contacto #myForm .btn-enviar:hover {
+  box-shadow: 0px 0px 6px #f0d1d9;
+}
+
 .footer {
   padding: 2rem;
   font-family: "Open sans", sans-serif;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
-.footer p {
+.footer .footer-links .link-footer {
+  font-size: 24px;
+  cursor: pointer;
+  color: #000000;
+  margin: 1rem 0.8rem;
+  width: fit-content;
+}
+.footer .footer-links .link-footer:hover {
+  transform: scale(1.1);
+}
+.footer .footer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .footer-info p {
   font-size: 14px;
   margin: 1rem;
+  color: #4d4d4d;
 }
-.footer a {
+.footer .footer-info a {
   font-size: 14px;
   margin: 1rem;
-  color: #000;
+  color: #4d4d4d;
+  width: max-content;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

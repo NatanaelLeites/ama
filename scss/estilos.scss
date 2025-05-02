@@ -4,11 +4,15 @@
 @import './hero.scss';
 @import './nosotros.scss';
 @import './rincon.scss';
+@import './contacto.scss';
 @import './footer.scss';
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
     height: 100vh;

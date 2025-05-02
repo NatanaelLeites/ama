@@ -40,13 +40,12 @@
         opacity: 1;
         .nav-links {
             display: flex;
-            flex-direction: column;
-
+            flex-direction: column; 
             .nav-item {
                 font-size: 18px;
                 padding: .8rem;
-                transition: all .5s;
                 color: #4d4d4d;
+                transition: all .5s;
             }
 
             .nav-item:hover {
@@ -56,6 +55,7 @@
 
         .link-instagram {
             padding: 1rem 0.5rem;
+            transition: all .5s;
         }
 
         .link-instagram:hover {
