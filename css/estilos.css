@@ -375,6 +375,11 @@
   text-align: center;
   padding: 1rem;
 }
+.contacto p {
+  padding: 1rem;
+  color: #4d4d4d;
+  line-height: 1.8;
+}
 .contacto #myForm .form-group .col input {
   width: 90vw;
   padding: 1rem;
