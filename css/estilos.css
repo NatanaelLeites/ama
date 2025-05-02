@@ -355,6 +355,22 @@
   box-shadow: 0px 0px 6px #f0d1d9;
 }
 
+.footer {
+  padding: 2rem;
+  font-family: "Open sans", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer p {
+  font-size: 14px;
+  margin: 1rem;
+}
+.footer a {
+  font-size: 14px;
+  margin: 1rem;
+  color: #000;
+}
+
 * {
   margin: 0;
   padding: 0;
