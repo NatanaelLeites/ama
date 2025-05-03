@@ -53,7 +53,9 @@
             <h3>Nosotros</h3>
             <p>Somos un pequeño emprendimiento creado con mucho amor, donde cada accesorio con piedras naturales está
                 pensado para acompañarte con su belleza y energía. Gracias por ser parte de este sueño.</p>
-            <button>Sobre Nosotros</button>
+            <a href="./nosotros.html">
+                <button>Sobre Nosotros</button>
+            </a>
         </div>
         <div id="ritual" class="rincon">
             <img src="../img/rincon-img.webp" alt="rincon del ritual img">
@@ -68,15 +70,17 @@
                     significativa. Te acompañamos a crear ese espacio sagrado donde el aquí y ahora se vuelve parte de
                     tu
                     día a día.</p>
-                <button>Conoce más</button>
+                <a href="./ritual.html">
+                    <button>Conoce más</button>
+                </a>
             </div>
         </div>
         <div id="contacto" class="contacto">
             <h3>Contacto</h3>
             <p>Si tenes alguna duda antes de realizar tu compra, no dudes en consultarme.</p>
-            <!-- sofiirebollo@gmail.com -->
-            <form id="myForm" onsubmit="submitForm()" target="_blank"
-                action="https://formsubmit.co/amauy.store@gmail.com" method="POST">
+            <form id="myForm" onsubmit="submitForm()" action="https://formsubmit.co/amauy.store@gmail.com"
+                method="POST">
+                <input type="hidden" name="_next" value="https://ama-uy.myshopify.com/">
                 <div class="form-group">
                     <div class="form-row">
                         <div class="col">
@@ -100,23 +104,24 @@
         </div>
         <hr>
         <footer class="footer">
-            <div class="footer-links"><a class="link-footer"
-                    href="https://www.instagram.com/ama.uy/?igsh=MXhoMGFzNzhjaTZyeA%3D%3D#" target="_blank"
-                    rel="noopener noreferrer">
-                    <i class='bx bxl-instagram'></i>
+            <div class="footer-links">
+                <a class="link-footer" href="https://www.instagram.com/ama.uy/?igsh=MXhoMGFzNzhjaTZyeA%3D%3D#"
+                    target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-instagram link-footer'></i>
                 </a>
-                <a id="btn-comprar" target="_blank" href="https://wa.me/59898712712?text=Hola%20soy%20cliente%20AMA%20"
-                    class="link-footer"><i class='bx bxl-whatsapp'></i></a>
+                <a id="btn-comprar" target="_blank"
+                    href="https://wa.me/59898712712?text=Hola%20soy%20cliente%20AMA%20"><i
+                        class='bx bxl-whatsapp link-footer'></i></a>
             </div>
 
             <div class="footer-info">
-                <p>© 2025, AMA.UY</p>
                 <a href="#">Política de envío
                 </a>
                 <a href="#">Política de privacidad
                 </a>
                 <a href="#">Política de reembolso</a>
                 <a href="#">Información de contacto</a>
+                <p>© 2025, AMA.UY</p>
             </div>
         </footer>
     </div>
