@@ -1,82 +1,106 @@
 [
     {
       "id": 1,
-      "codigo": "COL001",
-      "nombre": "Collar Amatista",
-      "precio": 500,
-      "accesorio": "collares",
+      "codigo": "CAR001",
+      "nombre": "Caravanas de escallas de amatista",
+      "precio": 320,
+      "accesorio": "caravanas",
       "piedra": "amatista"
     },
     {
       "id": 2,
-      "codigo": "PUL005",
-      "nombre": "Pulsera Cuarzo Rosa",
-      "precio": 500,
-      "accesorio": "pulsera",
-      "piedra": "cuarzo"
-    },
-    {
-      "id": 3,
-      "codigo": "GAR012",
-      "nombre": "Gargantilla Amatista Flor",
-      "precio": 500,
-      "accesorio": "gargantillas",
+      "codigo": "COL001",
+      "nombre": "Collar de amatista",
+      "precio": 420,
+      "accesorio": "collares",
       "piedra": "amatista"
     },
     {
-      "id": 4,
-      "codigo": "COL008",
-      "nombre": "Collar Cuarzo",
-      "precio": 500,
+      "id": 3,
+      "codigo": "COL002",
+      "nombre": "Collar citrino",
+      "precio": 380,
       "accesorio": "collares",
-      "piedra": "cuarzo"
+      "piedra": "citrino"
+    },
+    {
+      "id": 4,
+      "codigo": "GAR001",
+      "nombre": "Gargantilla con dije agata",
+      "precio": 390,
+      "accesorio": "gargantillas",
+      "piedra": "agata"
     },
     {
       "id": 5,
-      "codigo": "PUL011",
-      "nombre": "Pulsera Amatista",
-      "precio": 500,
-      "accesorio": "pulsera",
+      "codigo": "GAR002",
+      "nombre": "Gargantilla escallas de amatista con dije corazon",
+      "precio": 480,
+      "accesorio": "gargantillas",
       "piedra": "amatista"
     },
     {
       "id": 6,
-      "codigo": "GAR015",
-      "nombre": "Gargantilla Cuarzo Estrella",
-      "precio": 500,
+      "codigo": "GAR003",
+      "nombre": "Gargantilla dije agata",
+      "precio": 390,
       "accesorio": "gargantillas",
-      "piedra": "cuarzo"
+      "piedra": "agata"
     },
     {
       "id": 7,
-      "codigo": "COL019",
-      "nombre": "Collar Amatista Lágrima",
-      "precio": 500,
-      "accesorio": "collares",
-      "piedra": "amatista"
+      "codigo": "GAR004",
+      "nombre": "Gargantilla piedra luna",
+      "precio": 480,
+      "accesorio": "gargantillas",
+      "piedra": "piedra"
     },
     {
       "id": 8,
-      "codigo": "PUL022",
-      "nombre": "Pulsera Cuarzo",
-      "precio": 500,
-      "accesorio": "pulsera",
-      "piedra": "cuarzo"
+      "codigo": "POR001",
+      "nombre": "Porta vela e incienso",
+      "precio": 310,
+      "accesorio": "ritual",
+      "piedra": ""
     },
     {
       "id": 9,
-      "codigo": "GAR027",
-      "nombre": "Gargantilla Amatista Corazón",
-      "precio": 500,
-      "accesorio": "gargantillas",
-      "piedra": "amatista"
+      "codigo": "POR002",
+      "nombre": "Porta incienso + vela de miel",
+      "precio": 550,
+      "accesorio": "ritual",
+      "piedra": ""
     },
     {
       "id": 10,
-      "codigo": "COL025",
-      "nombre": "Collar Cuarzo Citrino",
-      "precio": 500,
+      "codigo": "COL003",
+      "nombre": "Selenita con 7 chakras",
+      "precio": 420,
       "accesorio": "collares",
-      "piedra": "cuarzo"
+      "piedra": "selenita"
+    },
+    {
+      "id": 11,
+      "codigo": "COL004",
+      "nombre": "Selenita con amatista",
+      "precio": 480,
+      "accesorio": "collares",
+      "piedra": "amatista"
+    },
+    {
+      "id": 12,
+      "codigo": "COL005",
+      "nombre": "Selenita con Lapisazul",
+      "precio": 480,
+      "accesorio": "collares",
+      "piedra": "selenita"
+    },
+    {
+      "id": 13,
+      "codigo": "COL006",
+      "nombre": "Turmalina rosa",
+      "precio": 460,
+      "accesorio": "collares",
+      "piedra": "turmalina"
     }
   ]
