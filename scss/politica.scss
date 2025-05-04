@@ -1,0 +1,18 @@
+.politica{
+    font-family: $fuente-texto-general;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    h3{
+        font-weight: 400;
+        font-size: 26px;
+        color: #141414;
+        margin: 1rem;
+        text-align: center;
+    }
+    p{
+        line-height: 1.8;
+        padding: 1rem .5rem;
+        color: #4d4d4d;
+    }
+}
